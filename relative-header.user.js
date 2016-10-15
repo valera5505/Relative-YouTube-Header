@@ -22,6 +22,8 @@ function setMasthead() {
 
 setMasthead();
 
+// SPFdone is event of YouTube AJAX page loader. I want to have relative header
+// on video page, but normal header on other pages
 document.addEventListener("spfdone", function() {
     setMasthead();
 });
